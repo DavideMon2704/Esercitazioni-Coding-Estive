@@ -1,0 +1,10 @@
+#Ignora tutto
+*
+
+#Eccezzioni
+!*.cpp
+!*.txt
+!*.MD
+!*.gitignore
+!*.exe
+!*.h
