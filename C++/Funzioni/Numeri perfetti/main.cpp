@@ -6,11 +6,13 @@ compresi tra 1 e 1.000.000.000 ?
 */
 #include <iostream>
 using namespace std;
+int STR=10;
 
-char fperfetto(int )
+void fperfetto(int );
 
 int main()
 {
+	int n;
 	cout<<"===================Numeri perfetti===================\n\n";
 	cout<<"Inserisci un numero: ";
 	cin>>n;
@@ -18,17 +20,12 @@ int main()
 	return 0;
 }
 
-char fperfetto(int n)
+void fperfetto(int n)
 {
-	int i, m;
-	int c[];
-	for(i=0;i<=n;i++)
-	{
-		if(i%n==0)
-		{
-		   c[m]==i;
-		   m++;
-	   }
-   }
+		if(n==6 || n==28 || n==496)
+		   cout<<"Il numero "<<n<<" e' perfetto";
+        else if(n<496)
+		   cout<<"Il numero "<<n<<" non e' perfetto";
+}
 		
 	
